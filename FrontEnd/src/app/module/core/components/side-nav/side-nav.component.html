@@ -1,11 +1,6 @@
-<div
-  class="offcanvas offcanvas-end"
-  tabindex="-1"
-  id="offcanvasNavbar"
-  aria-labelledby="offcanvasNavbarLabel"
->
+<div class="offcanvas offcanvas-end side-navbar"tabindex="-1"id="offcanvasNavbar"aria-labelledby="offcanvasNavbarLabel">
   <div class="offcanvas-header">
-    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+    <div class="offcanvas-title img-logo" id="offcanvasNavbarLabel">
       <img src="assets/images/logo.svg" alt="" />
     </div>
     <button
@@ -19,9 +14,7 @@
     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
       <li class="nav-item" *ngFor="let item of listItem">
         <i [class]="item.iconItem" aria-hidden="true"></i>
-        <a class="nav-link active" aria-current="page" href="#">{{
-          item.nameItem
-        }}</a>
+        <a class="nav-link active" aria-current="page" href="#">{{item.nameItem}}</a>
       </li>
 
       <div class="footer-nav">
