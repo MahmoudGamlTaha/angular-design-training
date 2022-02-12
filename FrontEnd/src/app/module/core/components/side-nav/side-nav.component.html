@@ -1,1 +1,41 @@
-<p>side-nav works!</p>
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasNavbar"
+  aria-labelledby="offcanvasNavbarLabel"
+>
+  <div class="offcanvas-header">
+    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+      <img src="assets/images/logo.svg" alt="" />
+    </div>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li class="nav-item" *ngFor="let item of listItem">
+        <i [class]="item.iconItem" aria-hidden="true"></i>
+        <a class="nav-link active" aria-current="page" href="#">{{
+          item.nameItem
+        }}</a>
+      </li>
+
+      <div class="footer-nav">
+        <li class="nav-item">
+          <i class="fa fa-users" aria-hidden="true"></i>
+          <a class="nav-link active" aria-current="page" href="#">الأشخاص </a>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-cogs" aria-hidden="true"></i>
+          <a class="nav-link active" aria-current="page" href="#"
+            >ثوابت النظام
+          </a>
+        </li>
+      </div>
+    </ul>
+  </div>
+</div>

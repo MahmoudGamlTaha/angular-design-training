@@ -1,0 +1,16 @@
+li {
+  display: flex;
+  // justify-content:center;
+
+  align-items: center;
+  .fa {
+    color: red;
+    padding: 10px;
+  }
+}
+
+.footer-nav {
+  margin-top: 20 px;
+  padding-top: 20px;
+  border-top: solid rgba(0, 0, 0, 0.274) 2px;
+}
