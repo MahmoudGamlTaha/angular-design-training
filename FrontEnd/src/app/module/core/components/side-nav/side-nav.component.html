@@ -1,31 +1,25 @@
-<div class="offcanvas offcanvas-end side-navbar"tabindex="-1"id="offcanvasNavbar"aria-labelledby="offcanvasNavbarLabel">
-  <div class="offcanvas-header">
+<div class="row p-0 m-0">
+  <div class="offcanvas-header col-11">
     <div class="offcanvas-title img-logo" id="offcanvasNavbarLabel">
       <img src="assets/images/logo.svg" alt="" />
     </div>
-    <button
-      type="button"
-      class="btn-close text-reset"
-      data-bs-dismiss="offcanvas"
-      aria-label="Close"
-    ></button>
+  
   </div>
-  <div class="offcanvas-body">
+  <div class="offcanvas-body col-11">
     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-      <li class="nav-item" *ngFor="let item of listItem">
+      <li class="nav-item" *ngFor="let item of listItem" [routerLink]="item.url" routerLinkActive="active-link">
         <i [class]="item.iconItem" aria-hidden="true"></i>
-        <a class="nav-link active" aria-current="page" href="#">{{item.nameItem}}</a>
+        <a class="nav-link">{{item.nameItem}}</a>
       </li>
-
+  
       <div class="footer-nav">
         <li class="nav-item">
           <i class="fa fa-users" aria-hidden="true"></i>
-          <a class="nav-link active" aria-current="page" href="#">الأشخاص </a>
+          <a class="nav-link" aria-current="page" href="#">الأشخاص </a>
         </li>
         <li class="nav-item">
           <i class="fa fa-cogs" aria-hidden="true"></i>
-          <a class="nav-link active" aria-current="page" href="#"
-            >ثوابت النظام
+          <a class="nav-link" aria-current="page" href="#">ثوابت النظام
           </a>
         </li>
       </div>

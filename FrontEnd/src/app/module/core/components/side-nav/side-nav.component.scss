@@ -1,15 +1,25 @@
 .side-navbar{
   display: block;
-  height: 100vh;
+  height: 100%;
+ 
 }
 .img-logo{
   height: 40px;
+  img{
+      max-width: 100%;
+  }
 }
 
 .offcanvas-body{
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
 }
+.active-link{
+background-color: rgba(0, 81, 255, 0.301);
+border-right: solid 20px rgb(0, 20, 61);
+
+}
+
 
 
 li {
@@ -20,6 +30,7 @@ li {
     padding: 10px;
   }
   &:hover {
+
     background-color: rgba(0, 81, 255, 0.301);
   }
 }
