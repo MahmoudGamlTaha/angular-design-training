@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class SideNavComponent implements OnInit {
   listItem = [
     { nameItem: 'مكتبة التقارير الدوراية ', iconItem: 'fa fa-bars ', url: '/home' },
-    { nameItem: 'مكتبة الاخبار ', iconItem: 'fa fa-camera', url: '1' },
-    { nameItem: 'مكتبة التحقيق ومقالات الرية', iconItem: 'fa fa-newspaper-o', url: '2' },
+    { nameItem: 'مكتبة الاخبار ', iconItem: 'fa fa-camera', url: '/newsLibrary' },
+    { nameItem: 'مكتبة التحقيق ومقالات الرية', iconItem: 'fa fa-newspaper-o', url: '/investigationLibrary' },
     { nameItem: ' مكتب  الصور الفديوهات', iconItem: 'fa fa-picture-o', url: '3' },
     { nameItem: ' الاحصائيات والبيانات الرقمية', iconItem: 'fa fa-line-chart', url: '4' },
     { nameItem: ' حسابات التواصل الاجتماعي ', iconItem: 'fa fa-user', url: '5' },
