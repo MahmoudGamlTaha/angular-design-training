@@ -5,6 +5,7 @@ import { InvestigationLibraryComponent } from './investigation-library/investiga
 import { NewsLibraryComponent } from './news-library/news-library.component';
 
 const routes: Routes = [
+   {path: '', component : HomeComponent},
     {path: 'home', component : HomeComponent},
      {path: 'newsLibrary', component : NewsLibraryComponent},
      {path: 'investigationLibrary', component : InvestigationLibraryComponent},
@@ -13,7 +14,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule] 
 
 })
 export class HomeRoutingModule { }

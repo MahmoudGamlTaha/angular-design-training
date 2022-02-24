@@ -23,6 +23,7 @@ border-right: solid 20px rgb(0, 20, 61);
 
 
 li {
+  
   display: flex;
   align-items: center;
   .fa {
@@ -32,6 +33,9 @@ li {
   &:hover {
 
     background-color: rgba(0, 81, 255, 0.301);
+  }
+  a{
+    color: black;
   }
 }
 

@@ -1,43 +1,41 @@
 <nav class="navbar navbar-light ">
   <div class="container-fluid navbar row p-0 m-0">
-    <div class="left-navbar col-6">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar"
+    <div class="left-navbar col-4">
+      
+      <button class="navbar-toggler"type="button"data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar"aria-controls="offcanvasNavbar"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="fa fa-th"></span>
       </button>
-      <a class="navbar-brand" href="#">ادارة المستخدمين</a>
+      <a class="navbar-brand" href="#">{{'navbar.usermanagement'|translate}} </a>
     </div>
-    <div class="right-navbar col-6">
+    <div class="right-navbar col-8">
       <div class="row">
-        <div class="notification col-2">
+        <div class="notification col-1">
           <button class="button-notification" type="button">
             <i class="fa fa-bell" aria-hidden="true"></i>
           </button>
         </div>
-        <div class="col-4 log-img">
+        <div class="col-3 log-img">
           <img src="assets/images/user.jpg" alt="" />
         </div>
-        <div class="col-5 user"><a href="#">محمد اشرف</a></div>
+        <div class="col-6 user"><a href="#">{{'navbar.user'|translate}}</a></div>
         <div class="col-1 dropdown">
           <button class="btn dropdown-toggle"type="button"id="dropdownMenuButton2"data-bs-toggle="dropdown" aria-expanded="false"></button>
 
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
             <li>
-              <a class="dropdown-item active" href="#">الصفحة الرائسية</a>
+              <a class="dropdown-item active" href="#">{{'navbar.homepage'|translate}}</a>
             </li>
-            <li><a class="dropdown-item" href="#">الأعدادات</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">{{'navbar.settings'|translate}}</a></li>
+            <li><a class="dropdown-item" (click)="changeLangage('ar')" >{{'navbar.arabic'|translate}}</a></li>
+            <li><a class="dropdown-item"(click)="changeLangage('en')">{{'navbar.einglish'|translate}}</a></li>
             <li>
               <hr class="dropdown-divider" />
             </li>
-            <li><a class="dropdown-item" href="#">تسجيل خروج</a></li>
+            <li><a class="dropdown-item" href="#">{{'navbar.log-out'|translate}}</a></li>
           </ul>
         </div>
+        
       </div>
     </div>
 

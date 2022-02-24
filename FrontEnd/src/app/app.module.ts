@@ -1,10 +1,17 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DEFAULT_LANGUAGE, TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './module/core/core.module';
 import { HomeModule } from './module/home/home.module';
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
+}
 
 @NgModule({
   declarations: [
@@ -15,6 +22,16 @@ import { HomeModule } from './module/home/home.module';
     AppRoutingModule,
     CoreModule,
     HomeModule,
+    HttpClientModule,
+
+TranslateModule.forRoot({
+loader: {
+provide: TranslateLoader,
+useFactory: HttpLoaderFactory,
+deps: [HttpClient]
+},
+ defaultLanguage:'ar'
+})
     
 
   ],

@@ -1,7 +1,14 @@
 .navbar {
   // height: 80px;
-  background-color: aqua;
+  background-color: var(--primary-color);
     color: white;
+    button{
+      border: none;
+       background-color:transparent;
+    }
+}
+.navbar-brand{
+  color: white;
 }
 .user {
   a {
@@ -43,4 +50,9 @@ color: black;
 .button-notification {
   border: none;
   background-color:transparent;
+  
+}
+.navbar-toggler{
+  color: aliceblue;
+ 
 }

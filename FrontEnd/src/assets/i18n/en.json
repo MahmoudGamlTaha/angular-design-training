@@ -1,0 +1,54 @@
+{
+    "navbar" :{
+        "user":" Mohammed Ashraf",
+       "homepage":"Home page",
+       "settings":"Settings",
+       "log-out":"Log out",
+       "arabic":"Arabic",
+       "einglish":"Einglish",
+        "usermanagement":"User Management "
+    },
+      "investigation":{
+        "search":"search",
+        "browse":"Browse",
+        "delete":"Delete",
+        "add":"Add",
+         "editing":"Editing",
+        "code":"Code",
+        "side":"Side",
+        "address":"Address",
+        "date":"Date",
+       "filestobrowse":"Files To Browse",
+        "picturestoreview":"Pictures To Review"
+    },
+"sidenav":{
+    "periodicreportlibrary": "Periodic Report Library",
+    "newslibrary": "News Library",
+    "library": "Library of investigations and opinion articles",
+    "office-photo": "Photo video office",
+    "statistics": "statistics and numerical data",
+    "accounts": "social media accounts",
+    "management": "management of influencers",
+    "analysis": "balance and impact analysis",
+    "events": "Events",
+    "agenda": "the agenda",
+    "general-search": "General Search",
+"people":"People",
+"systemconstants":"System Constants"
+    },
+  "report-library":{
+  "code":"Code",
+"common-code-1":"Common Code 1",
+"common-code-2":"Common Code 2",
+"report-number":"Report Number",
+"search-from":"Search From",
+"to":"To",
+"search-by-word":"Search-by-word",
+"side":"Side",
+"title":"Title",
+"type":"Type",
+"rotating":"Rotating",
+"mediator":"Mediator",
+"effect":"Effect"
+}
+}

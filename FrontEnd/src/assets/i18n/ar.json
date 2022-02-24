@@ -1,0 +1,57 @@
+{
+  "navbar": {
+    "user": "محمد اشرف",
+    "homepage": "الصفحة الرائسية",
+    "settings": "الاعدادات",
+    "log-out": "تسجيل خروج",
+    "arabic": "عربي",
+    "einglish": "الإنجليزية ",
+    "usermanagement": "ادارة المستخدمين"
+
+  },
+
+  "investigation": {
+    "search": "بحث",
+    "browse": "استعراض",
+    "delete": "حذف",
+    "add": "اضافة",
+    "editing": "تحرير",
+    "code": "الكود",
+    "side": "الجهة",
+    "address": "العنوان",
+    "date": "التاريخ",
+    "filestobrowse": "الملفات للاستعراض",
+    "picturestoreview": "الصور للاستعراض"
+
+  },
+  "sidenav": {
+    "periodicreportlibrary": "مكتبة التقرير الدوري",
+    "newslibrary": "مكتبة الاخبار ",
+    "library": "مكتبة التحقيقات ومقالات الرأي",
+    "office-photo": " مكتب  الصور الفديوهات",
+    "statistics": "الاحصائيات والبيانات الرقمية",
+    "accounts": "حسابات التواصل الاجتماعي",
+    "management": "ادارة الموثرين",
+    "analysis": "الرصيد وتحليل  الأثر ",
+    "events": "الفعاليات",
+    "agenda": "الاجندة",
+    "general-search": " البحث العام  ",
+    "people": "الاشخاص",
+    "systemconstants": "ثوابت النظام"
+  },
+  "report-library":{
+  "code":"الكود",
+"common-code-1":"الكود المشترك 1",
+"common-code-2":"الكود المشترك 2",
+"report-number":"رقم التقرير",
+"search-from":"البحث من",
+"to":"إلي",
+"search-by-word":"البحث بالكلمة",
+"side":"الجهة",
+"title":"عنوان",
+"type":"النواع",
+"rotating":"الداورية",
+"mediator":"الوسيط",
+"effect":"الاثر"
+}
+}
