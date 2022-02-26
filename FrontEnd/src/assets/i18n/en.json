@@ -22,16 +22,16 @@
         "picturestoreview":"Pictures To Review"
     },
 "sidenav":{
-    "periodicreportlibrary": "Periodic Report Library",
+    "periodicreportlibrary": "PSeriodic Report Library",
     "newslibrary": "News Library",
-    "library": "Library of investigations and opinion articles",
-    "office-photo": "Photo video office",
-    "statistics": "statistics and numerical data",
-    "accounts": "social media accounts",
-    "management": "management of influencers",
-    "analysis": "balance and impact analysis",
+    "library": "Library Of Investigations And Opinion Articles",
+    "office-photo": "Photo Video Office",
+    "statistics": "Statistics And Numerical Data",
+    "accounts": "Social Media Accounts",
+    "management": "Management Of Influencers",
+    "analysis": "Balance And Impact Analysis",
     "events": "Events",
-    "agenda": "the agenda",
+    "agenda": "The Agenda",
     "general-search": "General Search",
 "people":"People",
 "systemconstants":"System Constants"
@@ -49,6 +49,16 @@
 "type":"Type",
 "rotating":"Rotating",
 "mediator":"Mediator",
-"effect":"Effect"
-}
+"effect":"Effect",
+ "date":"Date",
+ "topic":"Topic",
+"url-report":"Url Report",
+"url-side":"Url Side",
+"editor":"Editor",
+"keywords":"Keywords",
+"short-description":"Short Description"
+
+},
+"photo-video":{ "view-photos":"View photos and videos with the ability to choose one or more"}
+
 }

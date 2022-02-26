@@ -1,43 +1,46 @@
 <nav class="navbar navbar-light ">
   <div class="container-fluid navbar row p-0 m-0">
-    <div class="left-navbar col-4">
+   <div class="row">
+      <div class="left-navbar col-4">
       
-      <button class="navbar-toggler"type="button"data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar"aria-controls="offcanvasNavbar"
-      >
-        <span class="fa fa-th"></span>
-      </button>
-      <a class="navbar-brand" href="#">{{'navbar.usermanagement'|translate}} </a>
-    </div>
-    <div class="right-navbar col-8">
-      <div class="row">
-        <div class="notification col-1">
-          <button class="button-notification" type="button">
-            <i class="fa fa-bell" aria-hidden="true"></i>
-          </button>
-        </div>
-        <div class="col-3 log-img">
-          <img src="assets/images/user.jpg" alt="" />
-        </div>
-        <div class="col-6 user"><a href="#">{{'navbar.user'|translate}}</a></div>
-        <div class="col-1 dropdown">
-          <button class="btn dropdown-toggle"type="button"id="dropdownMenuButton2"data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-            <li>
-              <a class="dropdown-item active" href="#">{{'navbar.homepage'|translate}}</a>
-            </li>
-            <li><a class="dropdown-item" href="#">{{'navbar.settings'|translate}}</a></li>
-            <li><a class="dropdown-item" (click)="changeLangage('ar')" >{{'navbar.arabic'|translate}}</a></li>
-            <li><a class="dropdown-item"(click)="changeLangage('en')">{{'navbar.einglish'|translate}}</a></li>
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            <li><a class="dropdown-item" href="#">{{'navbar.log-out'|translate}}</a></li>
-          </ul>
-        </div>
-        
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="fa fa-th"></span>
+        </button>
+        <a class="navbar-brand" href="#">{{'navbar.usermanagement'|translate}} </a>
       </div>
-    </div>
+      <div class="right-navbar col-8">
+        <div class="row">
+          <div class="notification col-1">
+            <button class="button-notification" type="button">
+              <i class="fa fa-bell" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="col-3 log-img">
+            <img src="assets/images/user.jpg" alt="" />
+          </div>
+          <div class="col-6 user"><a href="#">{{'navbar.user'|translate}}</a></div>
+          <div class="col-1 dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+              aria-expanded="false"></button>
+      
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <li>
+                <a class="dropdown-item active" href="#">{{'navbar.homepage'|translate}}</a>
+              </li>
+              <li><a class="dropdown-item" href="#">{{'navbar.settings'|translate}}</a></li>
+              <li><a class="dropdown-item" (click)="changeLangage('ar')">{{'navbar.arabic'|translate}}</a></li>
+              <li><a class="dropdown-item" (click)="changeLangage('en')">{{'navbar.einglish'|translate}}</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">{{'navbar.log-out'|translate}}</a></li>
+            </ul>
+          </div>
+      
+        </div>
+      </div>
+   </div>
 
   </div>
 </nav>

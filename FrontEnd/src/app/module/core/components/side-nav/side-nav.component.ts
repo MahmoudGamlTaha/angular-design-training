@@ -11,7 +11,7 @@ export class SideNavComponent implements OnInit {
     { nameItem: "sidenav.periodicreportlibrary", iconItem: 'fa fa-bars ', url: '/home' },
     { nameItem: "sidenav.newslibrary", iconItem: 'fa fa-list-alt', url: '/newsLibrary' },
     { nameItem: "sidenav.library", iconItem: 'fa fa-newspaper-o', url: '/investigationLibrary' },
-    { nameItem: "sidenav.office-photo", iconItem: 'fa fa-picture-o', url: '3' },
+    { nameItem: "sidenav.office-photo", iconItem: 'fa fa-picture-o', url: '/photoVideoLibrary' },
     { nameItem:  "sidenav.statistics", iconItem: 'fa fa-line-chart', url: '4' },
     { nameItem:  "sidenav.accounts", iconItem: 'fa fa-user', url: '5' },
     { nameItem:  "sidenav.management", iconItem: 'fa fa-cog', url: '10' },

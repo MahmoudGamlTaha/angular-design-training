@@ -11,6 +11,7 @@
   color: white;
 }
 .user {
+    // border: solid salmon 2px;
   a {
     text-decoration: none;
     color: white;
@@ -21,8 +22,9 @@
 color: black;
   }
 .log-img {
+    // border: solid salmon 2px;
     margin: 0px;
-     margin-right: 10px;
+    //  margin-right: 10px;
     padding: 0px;
   width: 50px;
   height: 50px;
@@ -33,6 +35,11 @@ color: black;
       height: 100%;
       object-fit: cover;
   }
+}
+.dropdown{
+  //  border: solid salmon 2px;
+    display: flex;
+  justify-content: center;
 }
 
 .right-navbar {
@@ -47,11 +54,18 @@ color: black;
   }
 
 }
+.notification{
+  display: flex;
+  justify-content: center;
+  // border: solid salmon 2px;
+
+}
 .button-notification {
   border: none;
   background-color:transparent;
   
 }
+
 .navbar-toggler{
   color: aliceblue;
  

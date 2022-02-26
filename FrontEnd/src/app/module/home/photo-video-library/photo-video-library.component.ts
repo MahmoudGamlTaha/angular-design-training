@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotoVideoLibraryComponent implements OnInit {
 
+  listImg=[
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""},
+    {url:"",titel:""}
+]
   constructor() { }
 
   ngOnInit(): void {
