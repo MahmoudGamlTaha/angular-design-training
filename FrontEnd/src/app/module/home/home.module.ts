@@ -8,6 +8,8 @@ import { NewsLibraryComponent } from './news-library/news-library.component';
 import { InvestigationLibraryComponent } from './investigation-library/investigation-library.component';
 import { PhotoVideoLibraryComponent } from './photo-video-library/photo-video-library.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { DashboardModule } from '../dashboard/dashboard.module';
+import { StatisticsDataComponent } from './statistics-data/statistics-data.component';
 
 
 
@@ -18,20 +20,20 @@ import { TranslateModule } from '@ngx-translate/core';
     HomeComponent,
     NewsLibraryComponent,
     InvestigationLibraryComponent,
-    PhotoVideoLibraryComponent
+    PhotoVideoLibraryComponent,
+    StatisticsDataComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     CoreModule,
-    TranslateModule
-   
-
-  
+    TranslateModule,
+    DashboardModule
   ],
   exports:[
 NewsLibraryComponent,
-    HomeComponent
+HomeComponent,
+PhotoVideoLibraryComponent
   ]
 })
 export class HomeModule { }

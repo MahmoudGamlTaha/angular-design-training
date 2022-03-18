@@ -1,0 +1,206 @@
+<div class="container-fluid home row p-0 m-0">
+  <div class="laft-saction col-12">
+    <div class="row">
+      <div class="search col-12">
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder=""
+            aria-label="Search"
+          />
+          <button class="btn btn-primary" type="submit">
+            {{ "investigation.search" | translate }}
+          </button>
+          <label class="review" for="label">{{
+            "investigation.browse" | translate
+          }}</label>
+        </form>
+      </div>
+    </div>
+    <div class="row body-content">
+      <div class="col-5 form">
+        <div class="row input-saerch mb-5">
+          <div class="row">
+            <div class="col-2">
+              <label for="">الكود</label>
+            </div>
+            <div class="col-10">
+              <input
+                type="text"
+                class="form-control"
+                placeholder=""
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <label for="">الكود المشترك 1</label>
+            </div>
+            <div class="col-7">
+              <input
+                type="text"
+                class="form-control"
+                placeholder=""
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <label for="">الكود المشترك 2</label>
+            </div>
+            <div class="col-7">
+              <input
+                type="text"
+                class="form-control"
+                placeholder=""
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <label for="">البحث بكلمة</label>
+            </div>
+            <div class="col-8">
+              <input
+                type="input"
+                class="form-control"
+                placeholder=""
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <label for="">التصنيف الرائسية</label>
+            </div>
+            <div class="col-2 dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <label for="">التصنيف الفرعية 1</label>
+            </div>
+            <div class="col-2 dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <label for="">التصنيف الفرعية 2</label>
+            </div>
+            <div class="col-2 dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <label for=""> الموضوع</label>
+            </div>
+            <div class="col-2 dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row manu">
+          <div class="row">
+            <div class="input-group flex-nowrap">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="البحث"
+                aria-label="البحث"
+                aria-describedby="addon-wrapping"
+              />
+              <button
+                style="border: none; background-color: white"
+                type="submit"
+              >
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-7 tabl-results-1">
+        <table class="table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">{{ "investigation.code" | translate }}</th>
+              <th scope="col">{{ "investigation.address" | translate }}</th>
+              <th scope="col">عدد الاسطر</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row label-option">
+      <div class="col-6"></div>
+      <div class="col-6">
+        <label class="col-4">{{ "investigation.browse" | translate }}</label>
+        <label class="col-4">{{ "investigation.delete" | translate }}</label>
+        <label class="col-4">{{ "investigation.add" | translate }}</label>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,260 +1,243 @@
-<div class="container-fluid home row p-0 m-0">
-    <div class="right-saction col-3 p-0 m-0">
-        <div class="side-nav col-12 p-0 m-0">
-            <app-side-nav></app-side-nav>
+
+<div class="laft-saction col-12">
+
+    <div class="row m-0">
+        <div class="search col-12">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="" aria-label="Search" />
+                <button class="btn btn-primary" type="submit">{{'investigation.search'|translate}}</button>
+                <label class="review" for="label">{{'investigation.browse'|translate}}</label>
+            </form>
         </div>
     </div>
-
-    <div class="laft-saction col-9">
-        <div class="row">
-            <div class="nav-bar m-0 p-0 col-12">
-                <app-nav-bar></app-nav-bar>
-            </div>
-        </div>
-        <div class="row">
-            <div class="search col-12">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search" />
-                    <button class="btn btn-primary" type="submit">{{'investigation.search'|translate}}</button>
-                    <label class="review" for="label">{{'investigation.browse'|translate}}</label>
-                </form>
-            </div>
-        </div>
-        <div class="row body-content">
-            <div class="col-5 form">
-                <div class="row input-saerch">
-                    <div class="row">
-                        <div class="col-2">
-                            <label for="">{{'report-library.code'|translate}}</label>
-                        </div>
-                        <div class="col-10">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <label for="">{{'report-library.common-code-1'|translate}}</label>
-                        </div>
-                        <div class="col-7">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <label for="">{{'report-library.common-code-2'|translate}}</label>
-                        </div>
-                        <div class="col-7">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.report-number'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.date'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><input type="date" /></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.title'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="input" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.side'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for=""> {{'report-library.topic'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="input" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row manu">
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.type'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.rotating'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.mediator'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">
-                            <label for="">{{'report-library.effect'|translate}}</label>
-                        </div>
-                        <div class="col-2 dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false"></button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row manu">
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.url-report'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.url-side'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.editor'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="">{{'report-library.keywords'|translate}}</label>
-                        </div>
-                        <div class="col-8">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <label for="">{{'report-library.short-description'|translate}}</label>
-                        </div>
-                        <div class="col-7">
-                            <input type="text" class="form-control" placeholder="" aria-label=""
-                                aria-describedby="button-addon2" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-7">
+    <div class="row m-0 body-content">
+        <div class="col-5 form">
+            <div class="row input-saerch">
                 <div class="row">
-                    <div class="col-12 tabl-results-1">
-                  
-                        <div class="row" >
-                                <div class="col-12">
-                                    <table class="table">
-                                        <thead class="table-dark">
-                                            <tr>
-                                                <th scope="col">{{'photo-video.view-photos'|translate}}</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-                                </div>
-                           <div class="col-4 viweImg" *ngFor="let item of listImg">
-                                <img src="item.url" alt="">
-                           </div>
-                        </div>
+                    <div class="col-2">
+                        <label for="">{{'report-library.code'|translate}}</label>
                     </div>
-                
+                    <div class="col-10">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <label for="">{{'report-library.common-code-1'|translate}}</label>
+                    </div>
+                    <div class="col-7">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <label for="">{{'report-library.common-code-2'|translate}}</label>
+                    </div>
+                    <div class="col-7">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.report-number'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.date'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><input type="date" /></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.title'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="input" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.side'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for=""> {{'report-library.topic'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="input" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row manu">
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.type'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.rotating'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.mediator'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="">{{'report-library.effect'|translate}}</label>
+                    </div>
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row manu">
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.url-report'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.url-side'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.editor'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">{{'report-library.keywords'|translate}}</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <label for="">{{'report-library.short-description'|translate}}</label>
+                    </div>
+                    <div class="col-7">
+                        <input type="text" class="form-control" placeholder="" aria-label=""
+                            aria-describedby="button-addon2" />
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row label-option">
-            <div class="col-6"></div>
-            <div class="col-6">
-                <label class="col-4">{{'investigation.editing'|translate}}</label>
-                <label class="col-4">{{'investigation.delete'|translate}}</label>
-                <label class="col-4">{{'investigation.add'|translate}}</label>
+        <div class="col-7">
+            <div class="row m-0 p-0">
+                <div class="col-12 tabl-results-1">
+
+                    <div class="row m-0">
+                        <div class="col-12">
+                            <table class="table m-0">
+                                <thead class="table-dark m-0">
+                                    <tr>
+                                        <th scope="col">{{'photo-video.view-photos'|translate}}</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                        <div class="col-4 viweImg p-0 m-0" *ngFor="let item of listImg">
+                            <img src="item.url" alt="">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-
-    <div class="row footer">
-        <div class="col-12">
-            <app-footer></app-footer>
+    <div class="row m-0 label-option">
+        <div class="col-6"></div>
+        <div class="col-6">
+            <label class="col-4">{{'investigation.editing'|translate}}</label>
+            <label class="col-4">{{'investigation.delete'|translate}}</label>
+            <label class="col-4">{{'investigation.add'|translate}}</label>
         </div>
     </div>
 </div>
